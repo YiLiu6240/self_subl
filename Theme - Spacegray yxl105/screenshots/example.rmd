@@ -1,0 +1,41 @@
+# Markdown Title
+
+Markdown text. **bold text**, _italic text_, **_bold and italic text_**
+
+Markdown lists:
+
+- item
+- item
+- item
+
+1. item
+2. item
+3. item
+
+---------------------
+
+# Code blocks
+<!-- set syntax to R Markdown -->
+
+```r
+print("Hello, world!")
+A = 1 + 1
+B = function(foo = "foo", bar = "bar"){
+  out = paste0(foo, bar)
+  return(out)
+}
+B()
+# foobar
+```
+
+```python
+print('Hello, world!')
+A = 1 + 1
+def B(foo = "foo", bar = "bar"):
+  out = foo + bar
+  print(out)
+
+B()
+# foobar
+```
+

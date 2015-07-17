@@ -2,7 +2,7 @@
 # referencing package: show files
 import sublime, sublime_plugin
 
-class OpenFilesPlugin(sublime_plugin.EventListener):
+class StatusShowWrap(sublime_plugin.EventListener):
 
     def __init__(self):
         return
